@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import './PerfilAdmin.css'
+import './PerfilAdmin.css';
+import Link from "next/link";
 
 function PerfilAdmin() {
   const [adminData, setAdminData] = useState({
     nombres: '',
     apellidos: '',
-    tipoDocumento: '',
+    tipoDoc: '',
     numeroDocumento: '',
   });
 
@@ -21,21 +22,26 @@ function PerfilAdmin() {
 
   const handleSave = () => {
     console.log('Datos del administrador:', adminData);
+    alert("Datos actualizados");
   };
 
   return (
     <div>
       <h2>Perfil Administrador</h2>
+      <hr/>
       <div className='barraHor'>
       <ul className='listaGeneral'>
         <li className='listaDespSelec'>DATOS PERSONALES</li>
-        <li className='listaDesp'>CUENTA</li>
-        <li className='listaDesp'>PREFERENCIAS</li>
+        <li className='listaDesp'>
+          <Link href="/perfilAdminCuenta/PerfilAdminCuenta" style={{textDecoration:"none",color:"#79747E"}}>CUENTA</Link></li>
+          <li className='listaDesp'>
+          <Link href="/perfilAdminPrefe/PerfilAdminPrefe" style={{textDecoration:"none",color:"#79747E"}}>PREFERENCIAS</Link></li>
       </ul>
       <div className='BarraSelec'></div>
       </div>
       <form>
         <div className='contenedorDos'>
+          
         <div>
               <img src={userPhoto} alt="Foto del usuario"/>
             </div>
@@ -84,11 +90,13 @@ function PerfilAdmin() {
               required
             />
           </div>
-            </div>
-        </div>
-        <div className='botonBack'>
           <button type="button" onClick={handleSave}>Guardar</button>
-        </div>
+      </div>
+      
+    </div>
+        
+        
+        
       </form>
     </div>
   );

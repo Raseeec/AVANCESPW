@@ -27,7 +27,7 @@ li {
   align-items: center;
 }
 input {
-  width: 150%;
+  width: 24rem;
   height: 40px;
   border: 3px solid #6750a4;
   border-radius: 4px;
@@ -136,9 +136,15 @@ img {
   line-height: 16px;
 }
 
-.BarraSelec {
+.BarraSelecPrefe {
   width: 223px; 
   border-top: 5px solid #6750A4;
+  margin-left: 450px;
   position: absolute;
   bottom: 0;
+}
+
+.textAfuera input[type="color"] {
+  width: 26.5rem;
+  height: 60px;
 }

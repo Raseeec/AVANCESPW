@@ -136,9 +136,10 @@ img {
   line-height: 16px;
 }
 
-.BarraSelec {
+.BarraSelecUsu {
   width: 223px; 
   border-top: 5px solid #6750A4;
+  margin-left: 225px;
   position: absolute;
   bottom: 0;
 }
