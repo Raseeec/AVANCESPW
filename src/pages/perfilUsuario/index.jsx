@@ -42,6 +42,7 @@ function PerfilAdmin() {
   if(opcionSeleccionada === 'datosPersonalesUser'){
     return (
       <div>
+        <div className='trabajito'>
         <h2>Mi Perfil</h2>
         <hr />
         <div className='barraHor'>
@@ -106,11 +107,13 @@ function PerfilAdmin() {
             </div>
           </div>
         </form>
+        </div>
       </div>
     );
   }else if(opcionSeleccionada === 'cuentaUser'){
     return (
       <div>
+        <div className='trabajito'>
         <h2>Mi Perfil</h2>
         <hr />
         <div className='barraHor'>
@@ -152,6 +155,7 @@ function PerfilAdmin() {
             </div>
           </div>
         </form>
+        </div>
       </div>
     );    
   }

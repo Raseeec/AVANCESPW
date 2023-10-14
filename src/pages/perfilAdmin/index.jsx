@@ -45,6 +45,7 @@ function PerfilAdmin() {
   if(opcionSeleccionada === 'datosPersonales'){
     return (
       <div>
+        <div className='trabajito'>
         <h2>Hola, administrador</h2>
         <hr />
         <div className='barraHor'>
@@ -64,7 +65,8 @@ function PerfilAdmin() {
             <div className='contenedorTres'>
               <div className='textAfuera'>
                 <label>Nombres</label>
-                <input
+                <input 
+                  className='inputPerfil'
                   type="text"
                   id="nombres"
                   name="nombres"
@@ -76,6 +78,7 @@ function PerfilAdmin() {
               <div className='textAfuera'>
                 <label className='tipoDoc'>Tipo de Documento</label>
                 <input
+                  className='inputPerfil'
                   type="text"
                   id="tipoDoc"
                   name="tipoDoc"
@@ -87,6 +90,7 @@ function PerfilAdmin() {
               <div className='textAfuera'>
                 <label htmlFor="apellidos">Apellidos</label>
                 <input
+                  className='inputPerfil'
                   type="text"
                   id="apellidos"
                   name="apellidos"
@@ -98,6 +102,7 @@ function PerfilAdmin() {
               <div className='textAfuera'>
                 <label className='nroDoc'>Nro de Documento</label>
                 <input
+                  className='inputPerfil'
                   type="number"
                   id="numeroDocumento"
                   name="numeroDocumento"
@@ -110,11 +115,13 @@ function PerfilAdmin() {
             </div>
           </div>
         </form>
+        </div>
       </div>
     );
   }else if(opcionSeleccionada === 'cuenta'){
     return (
       <div>
+        <div className='trabajito'>
         <h2>Hola, administrador</h2>
         <hr />
         <div className='barraHor'>
@@ -157,11 +164,13 @@ function PerfilAdmin() {
             </div>
           </div>
         </form>
+        </div>
       </div>
     );    
   }else if(opcionSeleccionada === 'preferencias'){
     return (
       <div>
+        <div className='trabajito'>
         <h2>Hola, administrador</h2>
         <hr/>
         <div className='barraHor'>
@@ -215,6 +224,7 @@ function PerfilAdmin() {
             </div>
           </div>
         </form>
+        </div>
       </div>
     );    
   }
