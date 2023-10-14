@@ -26,7 +26,7 @@ li {
   font-weight: 400;
   align-items: center;
 }
-input {
+input{
   width: 150%;
   height: 40px;
   border: 3px solid #6750a4;
@@ -41,7 +41,7 @@ input {
   align-items: center;
   flex: 1;
 }
-button {
+button{
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -75,13 +75,12 @@ img {
     height: 490px;
     margin-left: 165px;
     margin-right: 27px;
-    
 }
 .contenedorTres {
     background-color: #f3edf7;
     width: 300px;
     height: 366px;
-    margin-left: 200px;
+    margin-left: 4rem;
     margin-top: 120px;
 }
 .botonBack{
@@ -125,7 +124,6 @@ img {
   width: 670px;
   border-radius: 10px;
   margin-left: 470px;
-  
   position: absolute;
   margin-top: 8px;
 
@@ -135,11 +133,32 @@ img {
   font-weight: 700;
   line-height: 16px;
 }
-
-.BarraSelecUsu {
+.BarraSelec {
   width: 223px; 
   border-top: 5px solid #6750A4;
-  margin-left: 225px;
   position: absolute;
   bottom: 0;
+  margin-left: 4.5rem;
+}
+.mensajeArchivo{
+  font-size: 16px;
+  border: none;
+  font-family: Roboto, sans-serif;
+}
+.textAfuera input[type="color"] {
+  width: 26.5rem;
+  height: 60px;
+}
+.BarraSelecCuenta {
+  margin-left: 22rem;
+  width: 223px;
+  border-top: 5px solid #6750A4;
+  position: absolute;
+  bottom: 0;
+}
+.OpcionDatosPerso{
+  padding-left: 3.8rem;
+}
+.OpcionCuenta{
+  padding-right: 4.5rem;
 }
