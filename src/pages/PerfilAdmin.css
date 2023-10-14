@@ -80,7 +80,7 @@ img {
     background-color: #f3edf7;
     width: 300px;
     height: 366px;
-    margin-left: 4rem;
+    margin-left: 10rem;
     margin-top: 120px;
 }
 .botonBack{
@@ -139,7 +139,7 @@ img {
   bottom: 0;
 }
 .mensajeArchivo{
-  font-size: 16px;
+  font-size: 13px;
   border: none;
   font-family: Roboto, sans-serif;
 }

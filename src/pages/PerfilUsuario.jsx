@@ -46,7 +46,7 @@ function PerfilAdmin() {
         <hr />
         <div className='barraHor'>
           <ul className='listaGeneral'>
-            <li className="OpcionDatosPerso" onClick={() => setOpcionSeleccionada('datosPersonalesUser')} style={{color:'#6750A4'}}>DATOS PERSONALES</li>
+            <li className="OpcionDatosPerso" onClick={() => setOpcionSeleccionada('datosPersonalesUser')} style={{color:'#6750A4', fontWeight:700}}>DATOS PERSONALES</li>
             <li className="OpcionCuenta" onClick={() => setOpcionSeleccionada('cuentaUser')}>CUENTA</li>
           </ul>
           <div className='BarraSelec'></div>
@@ -116,7 +116,7 @@ function PerfilAdmin() {
         <div className='barraHor'>
           <ul className='listaGeneral'>
             <li className="OpcionDatosPerso" onClick={() => setOpcionSeleccionada('datosPersonalesUser')}>DATOS PERSONALES</li>
-            <li className="OpcionCuenta" onClick={() => setOpcionSeleccionada('cuentaUser')} style={{color:'#6750A4'}}>CUENTA</li>
+            <li className="OpcionCuenta" onClick={() => setOpcionSeleccionada('cuentaUser')} style={{color:'#6750A4', fontWeight:700}}>CUENTA</li>
           </ul>
           <div className="BarraSelecCuenta"></div>
         </div>

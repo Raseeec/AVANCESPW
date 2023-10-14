@@ -49,7 +49,7 @@ function PerfilAdmin() {
         <hr />
         <div className='barraHor'>
           <ul className='listaGeneral'>
-            <li className="OpcionDatosPerso" onClick={() => setOpcionSeleccionada('datosPersonales')} style={{color:'#6750A4'}}>DATOS PERSONALES</li>
+            <li className="OpcionDatosPerso" onClick={() => setOpcionSeleccionada('datosPersonales')} style={{color:'#6750A4', fontWeight:700}}>DATOS PERSONALES</li>
             <li className="OpcionCuenta" onClick={() => setOpcionSeleccionada('cuenta')}>CUENTA</li>
             <li className="OpcionPrefer" onClick={() => setOpcionSeleccionada('preferencias')}>PREFERENCIAS</li>
           </ul>
@@ -120,7 +120,7 @@ function PerfilAdmin() {
         <div className='barraHor'>
           <ul className='listaGeneral'>
             <li className="OpcionDatosPerso" onClick={() => setOpcionSeleccionada('datosPersonales')}>DATOS PERSONALES</li>
-            <li className="OpcionCuenta" onClick={() => setOpcionSeleccionada('cuenta')} style={{color:'#6750A4'}}>CUENTA</li>
+            <li className="OpcionCuenta" onClick={() => setOpcionSeleccionada('cuenta')} style={{color:'#6750A4', fontWeight:700}}>CUENTA</li>
             <li className="OpcionPrefer" onClick={() => setOpcionSeleccionada('preferencias')}>PREFERENCIAS</li>
           </ul>
           <div className="BarraSelecCuenta"></div>
@@ -168,7 +168,7 @@ function PerfilAdmin() {
           <ul className='listaGeneral'>
             <li className="OpcionDatosPerso" onClick={() => setOpcionSeleccionada('datosPersonales')}>DATOS PERSONALES</li>
             <li className="OpcionCuenta" onClick={() => setOpcionSeleccionada('cuenta')}>CUENTA</li>
-            <li className="OpcionPrefer" onClick={() => setOpcionSeleccionada('preferencias')} style={{color:'#6750A4'}}>PREFERENCIAS</li>
+            <li className="OpcionPrefer" onClick={() => setOpcionSeleccionada('preferencias')} style={{color:'#6750A4', fontWeight:700}}>PREFERENCIAS</li>
           </ul>
           <div className='BarraSelecPrefe'></div>
         </div>

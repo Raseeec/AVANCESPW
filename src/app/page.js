@@ -5,7 +5,9 @@ export default function Home() {
     <main>
       <div>
         <h1>Página de inicio</h1>
-        <Link href="/PerfilUsuario">Editar Perfil</Link>
+        <Link href="/PerfilUsuario">Editar Perfil Usuario</Link>
+        <br />
+        <Link href="/PerfilAdmin">Editar Perfil Admin</Link>
       </div>
     </main>
   );
